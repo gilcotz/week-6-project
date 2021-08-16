@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="css/main.css">
+<title>Weather API</title>
+</head>
+    <div class="row col-md-4 offset-md-3">
+        <form name='weather' id='weather'>
+                <div class="row col-md-4 offset-md-3">
+                <div class="zipcode">
+                    <input type="text" class="inputValue" id='zipcode' placeholder="Enter city">
+                </div>
+                <div class="button">
+                    <button type="button" class="button btn-primary">search</button>
+                </div>
+                </div>
+        </form> 
+</div>
+        <div class="display col-md-3 offset-md-4">
+            <h1 class="name1"></h1>
+        </div>
+        <div class="row col-md-6 offset-md-4 ">
+                <div class="col-md-6">
+                    <table class="high table lighten-2">
+                        <thead>
+                        <tr id="high">
+                            <th scope="col">High</th>
+                        </tr>
+                        </thead>  
+                        <tbody id="highTemp">
+                        <tr >
+                            <td></td>
+                        </tr>
+                        </tbody>
+
+                        <thead class="Low grey lighten-2">
+                        <tr id="low">  
+                            <th scope="col">Low</th>
+                        </tr>
+                        </thead>
+                        <tbody id="lowTemp">
+                        <tr >
+                            <td></td>
+                        </tr>
+                        </tbody>
+
+                        <thead class="desc grey lighten-2">
+                        <tr id="forecast">
+                            <th scope="col">Forecast</th>
+                        </tr>
+                        </thead>
+                        <tbody id="decription">
+                        <tr>
+                            <td></td>
+                        </tr>
+                        </tbody>
+
+                        <thead class="humid grey lighten-2">
+                        <tr id="humidity">
+                            <th scope="col">Humidity</th>
+                        </tr>
+                        </thead>
+                        <tbody id="humid">
+                        <tr >
+                            <td></td>
+                        </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+          
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1601297183305-6df142704ea2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    padding-top: 10vh;
+    margin-bottom: 10px;
+}
+
+#zipcode{
+    margin-bottom: 10px;
+}
+
+.inputValue{
+    width: 340px; 
+    offset-block-end: 1px;
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+    offset: relative;
+    top:10px;
+    left: 95px;
+    bottom: 10px;
+}
+}
+
+
+.city_name{
+    text-align: center;
+    
+}
+
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    margin:10px;
+    width: 340px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    line-height: 10px;
+    text-align: center;
+    align-content: center;
+    
+}
+table{
+    padding-top: 5vh;
+    background-color: white;
+}
+
+table tr#high{
+    background-color:red;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    
+}
+table tr#low{
+    background-color: blue;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+table tr#forecast{
+    background-color: rgb(69, 209, 255);
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+table tr#humidity{
+    background-color: green;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+#temp-info{
+    text-align: center;
+}
